@@ -1,0 +1,14 @@
+/Users/cedric/workin/TN-Next/TnNext.Web/bin/Debug/netcoreapp2.2/TnNext.Web.deps.json
+/Users/cedric/workin/TN-Next/TnNext.Web/bin/Debug/netcoreapp2.2/TnNext.Web.runtimeconfig.json
+/Users/cedric/workin/TN-Next/TnNext.Web/bin/Debug/netcoreapp2.2/TnNext.Web.runtimeconfig.dev.json
+/Users/cedric/workin/TN-Next/TnNext.Web/bin/Debug/netcoreapp2.2/TnNext.Web.dll
+/Users/cedric/workin/TN-Next/TnNext.Web/bin/Debug/netcoreapp2.2/TnNext.Web.pdb
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.csprojAssemblyReference.cache
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.csproj.CoreCompileInputs.cache
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.RazorAssemblyInfo.cache
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.RazorAssemblyInfo.cs
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.AssemblyInfoInputs.cache
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.AssemblyInfo.cs
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.RazorTargetAssemblyInfo.cache
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.dll
+/Users/cedric/workin/TN-Next/TnNext.Web/obj/Debug/netcoreapp2.2/TnNext.Web.pdb

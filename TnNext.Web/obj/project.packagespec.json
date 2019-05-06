@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/cedric/workin/TN-Next/TnNext.Web/TnNext.Web.csproj",
+    "projectName": "TnNext.Web",
+    "projectPath": "/Users/cedric/workin/TN-Next/TnNext.Web/TnNext.Web.csproj",
+    "outputPath": "/Users/cedric/workin/TN-Next/TnNext.Web/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
