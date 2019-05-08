@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TnNext.Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/hello")]
     [ApiController]
-    public class HelloWorldController : ControllerBase
+    public class HelloController : ControllerBase
     {
         // GET api/values
         [HttpGet]
