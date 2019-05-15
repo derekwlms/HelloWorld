@@ -18,7 +18,7 @@ namespace Tn_Next.IntegrationTests
                 .UseStartup<TnNext.Web.Startup>();
 
             var testServer = new TestServer(builder);
-            testServer.BaseAddress = new Uri("http://localhost:21233");
+            testServer.BaseAddress = new Uri("http://127.0.0.1:21233");
             _client = testServer.CreateClient();
         }
         
