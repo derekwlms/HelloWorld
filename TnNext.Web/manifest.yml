@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-world-dotnet
+  buildpack: dotnet_core_buildpack
+  stack: cflinuxfs3
+  
+
