@@ -1,5 +1,4 @@
-using System;
-using System.Net.Http;
+using System.Threading.Tasks;
 using FluentAssertions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
@@ -9,7 +8,7 @@ namespace Tn_Next.IntegrationTests
 {    
     public class HelloWorldControllerTests
     {
-        private readonly HttpClient _client;
+        private readonly TestServer _server;
         
         public HelloWorldControllerTests()
         {
@@ -17,15 +16,15 @@ namespace Tn_Next.IntegrationTests
                 .UseEnvironment("Development")
                 .UseStartup<TnNext.Web.Startup>();
 
-            var testServer = new TestServer(builder);
-            _client = testServer.CreateClient();
+            _server = new TestServer(builder);
         }
         
         [Fact]
-        public void Should_return_hello_world()
+        public async Task Should_return_hello_world()
         {
-            var result = _client.GetAsync("/api/hello").Result.Content.ReadAsStringAsync().Result;
-
+            var client = _server.CreateClient();
+            var result = await client.GetAsync("/api/hello").Result.Content.ReadAsStringAsync();
+            
             result.Should().Be("Hello World.");
 
         }
