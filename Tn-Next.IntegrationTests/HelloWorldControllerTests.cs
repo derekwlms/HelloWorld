@@ -1,3 +1,4 @@
+using System;
 using System.Net.Http;
 using FluentAssertions;
 using Microsoft.AspNetCore.Hosting;
@@ -17,6 +18,7 @@ namespace Tn_Next.IntegrationTests
                 .UseStartup<TnNext.Web.Startup>();
 
             var testServer = new TestServer(builder);
+            testServer.BaseAddress = new Uri("http://localhost:21233");
             _client = testServer.CreateClient();
         }
         
